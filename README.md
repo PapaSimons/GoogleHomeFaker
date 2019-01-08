@@ -39,6 +39,6 @@ The Nodejs app has a simple API which turns the volume up and down a little in a
 * Free Text Input
 * Pre-Set texts
 
-Read more about our UX research here: https://medium.com/p/17f33ec66e32
+Read more about our UX research here: https://medium.com/firemarksg
 
 @ Done at Firemark Singapore Innovation Lab @ IAG
