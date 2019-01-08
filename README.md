@@ -4,6 +4,25 @@ This is a simple webapp + nodejs module that you can use to fake Google home voi
 With this project, you will be able to trigger any voice command through the Google Home and it will speak it out with the LEDs blinking.
 It is meant for user testing on voice assistants, but you can use it for other purposes.
 
+# Install and run
+
+1) Download the repository into your folder and cd into it
+
+2) First time run node init in order to get all the node modules
+```sh
+node init
+```
+
+3) Start the node app
+```sh
+node index.js
+```
+4) In your browser go to http://localhost:8888
+
+5) Connect to Google home via bluetooth
+
+* You can change and modify the scripts within the HTML app to meet your needs
+
 # How it works
 
 You will need to connect your laptop to google home with bluetooth (just google how to).
