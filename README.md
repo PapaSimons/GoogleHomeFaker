@@ -1,2 +1,25 @@
 # GoogleHomeFaker
-Meant for user testing on voice assistants - A tool for running your own scripted voice commands on Google home devices
+
+This is a simple webapp + nodejs module that you can use to fake Google home voice commands in a realistic way.
+With this project, you will be able to trigger any voice command through the Google Home and it will speak it out with the LEDs blinking.
+It is meant for user testing on voice assistants, but you can use it for other purposes.
+
+# How it works
+
+You will need to connect your laptop to google home with bluetooth (just google how to).
+The web app (which you can find in the public folder), triggers HTML5 speech APIs for the different text strings.
+The Nodejs app has a simple API which turns the volume up and down a little in a set frequency which makes Google home LEDs blink.
+
+![Web app where you can trigger the voice commands](/images/web_app.png)
+
+# Web app features
+
+* Change different vars in the texts at the top
+* Change different languages
+* Quick Random Fallbacks - 'I didn't understand..' 
+* Free Text Input
+* Pre-Set texts
+
+Read more about our UX research here: https://medium.com/p/17f33ec66e32
+
+@ Done at Firemark Singapore Innovation Lab @ IAG

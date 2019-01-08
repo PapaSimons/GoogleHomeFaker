@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Goo Goo</title>
+      <!-- JS -->
+      <script src='JS/jquery-3.3.1.min.js'></script>
+      <script src='JS/scripts.js'></script>
+      <!-- CSS -->
+      <link rel="stylesheet" href="CSS/basecss.css">
+  </head>
+  <body>
+      
+      <div class="container">
+          
+          <div class="options">
+              User Name:&nbsp;&nbsp;<input type="text" id='changen' value="Sarah" style="width:120px"/>&nbsp;<input type="button" value="Change" onclick="changename()"/>
+              <br/>
+              Relative Name:&nbsp;&nbsp;<input type="text" id='changer' value="Johnny" style="width:120px"/>&nbsp;<input type="button" value="Change" onclick="changerelative()"/>
+              <br/>
+              <!-- Chrome - en=49, cn=38, my=6, android - en=7, cn=40, id=19 -->
+              Language:&nbsp;&nbsp;
+              <input type="button" id="lbutt_en-GB" class="lbutt" value="EN" onclick="changelang('en-GB')"/>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="button" id="lbutt_zh-CN" class="lbutt" value="CN" onclick="changelang('zh-CN')"/>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="button" id="lbutt_id-ID" class="lbutt" value="MY" onclick="changelang('id-ID')"/>
+          </div>
+          
+          <div id="scripts">
+              Loading voice and scripts...
+          </div>
+          <br>
+          <br>
+          
+      </div>
+      <div id="stickme" align="center">
+          <div class="stickmeinner">
+              <input type="text" placeholder="Enter any text.." id="freetext" />
+              <input type="button" class="button-primary" onclick="freetext();" value="Play" />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="button" value="Fallback" onclick="fallback();" style="background:#00ff00">
+          </div>
+      </div>
+      <!-- main js -->
+      <script src='JS/main.js'></script>
+  </body>
+</html>
+
