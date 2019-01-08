@@ -10,7 +10,7 @@ It is meant for user testing on voice assistants, but you can use it for other p
 
 2) First time run node init in order to get all the node modules
 ```sh
-node init
+node install
 ```
 
 3) Start the node app
