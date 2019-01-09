@@ -1,4 +1,4 @@
-# GoogleHomeFaker
+# Google Home Faker
 
 This is a simple webapp + nodejs module that you can use to fake Google home voice commands in a realistic way.
 With this project, you will be able to trigger any voice command through the Google Home and it will speak it out with the LEDs blinking.
